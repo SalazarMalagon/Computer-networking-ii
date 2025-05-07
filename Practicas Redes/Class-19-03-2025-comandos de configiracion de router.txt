@@ -1,0 +1,34 @@
+IOS (Interwork Operating System)
+Hyperterminal
+Putty
+Teraterm
+
+Valores: 
+9600 
+8 
+ninguna paridad
+bit de parada: 1
+control: ninguno
+pregunta: no
+
+Comandos: (para destrabar es crl + shift + 6)  
+	1. Show clock -> sh clo
+	2. enable -> Cambia a modo privilegiado 
+	3. disable o exit -> Sale del modo privilegiado
+	4. show running-config -> me muestra lo que tengo en la memoria ram
+	5. show startup-congig -> me muestra en la memoria no ram
+	6. copy running-config startup-config -> copia de la memoria ram a la no ram
+	7. show ip interface brief -> Muestra las interfaces	
+	8. configure terminal -> pasamos a modo de configuración global
+	9. hostname (solo en configuración global) -> me permite ponerle un nombre
+	10. no hostname -> me permite borrar el comando 
+	11. no shutdown-> encender las interfaces 
+	12. ip address 192.168.0.1 255.255.255.0 -> asigna una ip a la interface
+	13. description
+
+Running-config (Memoria Volátil o memoria RAM)
+Startup-config (Memoria NO volátil o DD)
+Siempre usar mi código como contraseña en todos los modos 20202020043
+En el banner siempre poner un mensaje y atentamente: nombre, código, cedula
+
+Siempre que configúremelos una DCE se le pone la velocidad de 56000 y en DCT se coloca que no necesita esta configuración 
